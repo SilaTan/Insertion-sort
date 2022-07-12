@@ -12,9 +12,13 @@
 [2,6,16,22,18,27] -> 6 ile 27 yer değiştirir.
 
 * Aynı kuralı izleyrekten son sayıya kadar gelir.
+
 [2,6,16,22,18,27] -> 3. sıradaki sayı diğerleri arasında en küçük olduğu için yer değiştirmez.
+
 [2,6,16,18,22,27] -> 18 ile 22 yer değiştirir.
+
 [2,6,16,18,22,27] -> 5. sıradaki sayı en küçük olduğu için yer değiştirmez.
+
 [2,6,16,18,22,27] -> 6. sıradaki eleman en büyük olur ve dizimiz küçükten büyüğe sıralanır.
 
 2) Big-O gösterimini yazınız.
@@ -24,14 +28,20 @@
 3) Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.
 
 Average Case: 16, 18
-Worst Case: 27
-Best Case: 2
-Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
 
-4) Average Case
+Worst Case: 27
+
+Best Case: 2
+
+4) Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
+
+Average Case
 [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
 
 [2,3,5,8,7,9,4,15,6]
+
 [2,3,5,8,7,9,4,15,6]
+
 [2,3,4,8,7,9,5,15,6]
+
 [2,3,4,5,7,9,8,15,6]
